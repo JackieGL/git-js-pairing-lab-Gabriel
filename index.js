@@ -44,4 +44,19 @@ function isNegative(num){
         return false
     }
 }
-console.log(isNegative(-4))
+
+
+function multiply(a,b){
+    let mul = a * b;
+    if(a === b){
+        return mul * 3;
+    }else{
+        return mul;
+    }
+}
+
+function triangleArea(height,base){
+    let multiply = height * base;
+    return multiply * 0.5;
+}
+console.log(triangleArea(4,5));
