@@ -35,4 +35,13 @@ function add(num1,num2){
         return sum;
     }
 }
-console.log(add(2,2));
+
+
+function isNegative(num){
+    if(num < 0){
+        return true
+    }else{
+        return false
+    }
+}
+console.log(isNegative(-4))
