@@ -26,4 +26,13 @@ function untilNum(num){
     }
 }
 
-untilNum(30)
+
+function add(num1,num2){
+    let sum = num1 + num2;
+    if(num1 === num2){
+        return sum * 3;
+    }else{
+        return sum;
+    }
+}
+console.log(add(2,2));
