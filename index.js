@@ -6,13 +6,13 @@ function fiveToOneHundred(){
 }
 
 
-function multiplesOfThreeOrFive(){
-    for(let i = 0; i < 100;){
+function multiplesOfThree(){
+    for(let i = 0; i < 100;i += 3){
         console.log(i);
     }
 }
 
-function multiplesOfThree(){
+function multiplesOfThreeOrFive(){
     for(let i = 0 ; i < 100; i ++){
        if(i % 3 == 0 || i % 5 == 0){
            console.log(i)
